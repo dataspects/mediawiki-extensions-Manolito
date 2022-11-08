@@ -9,7 +9,7 @@ class SpecialManolito extends SpecialPage {
 		$request = $this->getRequest();
 		$output = $this->getOutput();
 		$this->setHeaders();
-		$output->addHTML( 'Hello' );
+		$output->addHTML( '<span id="myName"></span>' );
 		$output->addJsConfigVars(array(
 			'wgServer' => $GLOBALS['wgServer'],
 			'user' => $this->getUser()->getName()

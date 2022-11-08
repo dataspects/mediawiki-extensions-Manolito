@@ -1,1 +1,1 @@
-alert("hello");
+$("#myName").text(mw.config.get("user"));
