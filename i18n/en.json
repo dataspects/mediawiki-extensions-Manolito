@@ -1,0 +1,10 @@
+{
+  "@metadata": {
+    "authors": ["Lex Sulzer"]
+  },
+  "log-name-manolito": "manolito log",
+  "logentry-manolito-main": "$1 $2 $3 $4",
+  "manolito-header": "manolito Log",
+  "manolito": "manolito",
+  "manolito-desc": "An example MediaWiki extension in connection with the 'Manolito Future Day 2022'"
+}

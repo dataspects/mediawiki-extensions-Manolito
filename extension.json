@@ -9,8 +9,20 @@
   "requires": {
     "MediaWiki": ">= 1.35.0"
   },
+  "SpecialPages": {
+    "Dataspects": "SpecialManolito"
+  },
   "AutoloadNamespaces": {
     "MediaWiki\\Extension\\Manolito\\": "src/"
+  },
+  "ResourceModules": {
+    "ext.manolito": {
+      "localBasePath": "resources/ext.manolito",
+      "remoteExtPath": "Manolito/resources/ext.manolito",
+      "dependencies": [],
+      "styles": ["manolito.css"],
+      "packageFiles": ["./manolito.js"]
+    }
   },
   "HookHandlers": {
     "ManolitoHooks": {
