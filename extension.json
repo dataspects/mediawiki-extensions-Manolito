@@ -1,0 +1,30 @@
+{
+  "name": "Manolito",
+  "version": "0.0.1",
+  "author": ["Emilio", "Tiago"],
+  "url": "https://github.com/dataspects/mediawiki-extensions-Manolito",
+  "license-name": "GPL-2.0-or-later",
+  "descriptionmsg": "manolito-desc",
+  "type": "other",
+  "requires": {
+    "MediaWiki": ">= 1.35.0"
+  },
+  "AutoloadNamespaces": {
+    "MediaWiki\\Extension\\Manolito\\": "src/"
+  },
+  "HookHandlers": {
+    "ManolitoHooks": {
+      "class": "MediaWiki\\Extension\\Manolito\\Hooks"
+    }
+  },
+  "Hooks": {
+    "ParserFirstCallInit": "ManolitoHooks"
+  },
+  "MessagesDirs": {
+    "Manolito": ["i18n"]
+  },
+  "ExtensionMessagesFiles": {
+    "ManolitoMagic": "Manolito.i18n.php"
+  },
+  "manifest_version": 2
+}
