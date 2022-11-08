@@ -10,7 +10,7 @@
     "MediaWiki": ">= 1.35.0"
   },
   "SpecialPages": {
-    "Dataspects": "SpecialManolito"
+    "Manolito": "SpecialManolito"
   },
   "AutoloadNamespaces": {
     "MediaWiki\\Extension\\Manolito\\": "src/"
