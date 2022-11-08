@@ -15,6 +15,9 @@
   "AutoloadNamespaces": {
     "MediaWiki\\Extension\\Manolito\\": "src/"
   },
+  "AutoloadClasses": {
+    "SpecialManolito": "includes/specials/SpecialManolito.php"
+  },
   "ResourceModules": {
     "ext.manolito": {
       "localBasePath": "resources/ext.manolito",
