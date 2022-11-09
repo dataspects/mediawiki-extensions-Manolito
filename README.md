@@ -17,7 +17,7 @@ An example MediaWiki extension in connection with the "Manolito Future Day 2022"
 ### UNDERSTAND: [manolitoWiki](https://www.mediawiki.org/wiki/MediaWiki)
 
 * LocalSettings.php (purpose)
-  * Loading mediawiki-extensions-Manolito
+  * `wfLoadExtension("Manolito");`
 
 ### UNDERSTAND: [mediawiki-extensions-Manolito](https://github.com/dataspects/mediawiki-extensions-Manolito)
 
