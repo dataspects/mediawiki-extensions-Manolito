@@ -57,3 +57,6 @@ An example MediaWiki extension in connection with the "Manolito Future Day 2022"
             Functionality: write text into HTML element
         /home/manolito/manolitoWiki/extensions/Manolito/resources/ext.manolito/manolito.css
             Functionality: style/design user interface elements
+    https://www.cypress.io
+
+        /home/lex/mediawiki-extensions-Manolito/cypress/e2e/spec.cy.js
