@@ -8,7 +8,7 @@ class TextAccounting {
 
   public static function numberOfWords($str) {
     $words = explode(" ", $str);
-    $output = "<i>$str</i> contains ".count($words)." words.";
+    $output = "<i class='sentencesAreBlue'>$str</i> contains ".count($words)." words.";
     return $output;
   }
 
