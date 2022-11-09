@@ -59,4 +59,4 @@ An example MediaWiki extension in connection with the "Manolito Future Day 2022"
             Functionality: style/design user interface elements
     https://www.cypress.io
 
-        /home/lex/mediawiki-extensions-Manolito/cypress/e2e/spec.cy.js
+        /home/manolito/manolitoWiki/extensions/Manolito/cypress/e2e/spec.cy.js
