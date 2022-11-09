@@ -2,7 +2,7 @@
 
 # See https://www.mediawiki.org/wiki/Best_practices_for_extensions ;)
 
-namespace MediaWiki\Extension\Dataspects;
+namespace MediaWiki\Extension\Manolito;
 
 class TextAccounting {
 
